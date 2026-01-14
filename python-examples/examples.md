@@ -1,0 +1,1 @@
+This folder contains Python examples and assignments to learn how it works.
