@@ -17,6 +17,8 @@ Debug - Use print() statements to check variable values
 Comment Your Code - Explain what each line does
 Test Edge Cases - Try boundary values (0, negative, empty strings, etc.)
 
+One last tip: Before you start exercising, create a folder for your exercise-files.
+
 
 Level 1: Basics (Examples 1-2)
 
