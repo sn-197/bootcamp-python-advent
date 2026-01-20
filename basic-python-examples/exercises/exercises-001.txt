@@ -1,0 +1,162 @@
+This part of the bootcamp covers Python fundamentals with 6 progressive examples:
+1.	Hello World - Basic output
+2.	Variables - Variable assignment and printing
+3.	Data Types - int, float, str, bool
+4.	Arithmetic Operations - Basic math operations
+5.	Conditional Statements - if/else and logical operators
+6.	Mutable vs Immutable Values - Understanding Python data structures
+
+________________________________________
+📚 Exercises to Study and Learn
+
+(i) Practice Tips
+Run Each Example - Execute the example files to see the output
+Modify Examples - Change values and re-run to understand behavior
+Start Simple - Begin with Level 1 exercises before moving to challenges
+Debug - Use print() statements to check variable values
+Comment Your Code - Explain what each line does
+Test Edge Cases - Try boundary values (0, negative, empty strings, etc.)
+
+
+Level 1: Basics (Examples 1-2)
+
+Exercise 1.1: Personalized Greeting
+
+# Create variables for your name, age, and city
+# Print a personalized greeting message using all three variables
+# Expected output: "Hello, [Name]! You are [Age] years old and live in [City]."
+
+Exercise 1.2: Multiple Variables
+# Create 5 variables with different information (e.g., favorite color, hobby, year born)
+# Print each on a separate line with a descriptive label
+# Example format: "My favorite color is: [color]"
+
+ 
+Level 2: Data Types (Example 3)
+
+Exercise 2.1: Type Discovery
+# Create variables of each type: int, float, str, bool
+# Use type() to print the type of each
+# Then perform one operation on each (e.g., multiply the int, concatenate the str)
+
+Exercise 2.2: Type Casting
+# Create a variable with a number as a string: "42"
+# Convert it to an integer and perform math on it
+# Convert a float to an int and observe what happens
+# Convert an integer to a string and concatenate it with another string
+
+Exercise 2.3: Data Type Guessing Game
+# Given these values, identify their data type without running code:
+values = [42, "Python", 3.14, True, [1, 2, 3], False, "100"]
+# Write your predictions, then verify with type()
+
+
+Level 3: Arithmetic (Example 4)
+
+Exercise 3.1: Simple Calculator
+# Create two variables for numbers
+# Calculate and print: sum, difference, product, quotient, remainder (using %)
+# Also try: power (using **) and floor division (using //)
+
+Exercise 3.2: Area and Perimeter
+# Calculate the area and perimeter of a rectangle
+# Variables: length = 10, width = 5
+# Area = length × width
+# Perimeter = 2 × (length + width)
+
+Exercise 3.3: Temperature Conversion
+# Given a temperature in Celsius = 25
+# Convert to Fahrenheit: F = (C × 9/5) + 32
+# Print both with labels
+
+Exercise 3.4: Order Total Calculator
+# Create variables for: item_price, quantity, tax_rate
+# Calculate: subtotal, tax_amount, total
+# Print each step clearly
+
+
+Level 4: Conditionals (Example 5)
+
+Exercise 4.1: Grade Checker
+# Given a score (e.g., score = 85)
+# Use if/elif/else to determine and print the grade:
+# 90-100: A, 80-89: B, 70-79: C, 60-69: D, Below 60: F
+
+Exercise 4.2: Even or Odd
+# Given a number, check if it's even or odd
+# Hint: Use the modulo operator (%)
+
+Exercise 4.3: Eligibility Checker
+# Check if someone is eligible to vote (age >= 18) AND has a valid ID (has_id = True)
+# Use 'and' and 'or' operators in different conditions
+
+Exercise 4.4: Number Range
+# Given a number, check if it's:
+# - Negative, Zero, or Positive
+# - Within range 1-10, 11-20, 21-30, or Outside all ranges
+
+Exercise 4.5: Login Validator
+# Create variables for: username, password, age
+# Check all conditions:
+# - Username must not be empty
+# - Password must be longer than 5 characters
+# - Age must be at least 13
+# Print appropriate messages for each case
+
+
+Level 5: Mutable vs Immutable (Example 6)
+
+Exercise 5.1: String Immutability
+# Create: original_name = "Alice"
+# Create: new_name = original_name
+# Reassign: original_name = "Bob"
+# Print both and explain why they're different
+
+Exercise 5.2: List Mutability
+# Create: list_a = [1, 2, 3]
+# Create: list_b = list_a
+# Modify list_a: list_a.append(4)
+# Print both and observe the difference from exercise 5.1
+
+Exercise 5.3: Reassignment vs Modification
+# numbers = [1, 2, 3]
+# numbers_copy = numbers
+# numbers = numbers + [4, 5]  # Reassignment
+# Print numbers and numbers_copy - what's the result?
+# Explain why this differs from using .append()
+
+
+
+Challenge Exercises (Combine All Topics)
+
+Challenge 1: Simple Banking Program
+# Variables: account_holder, balance, transaction_amount, transaction_type
+# - Check if transaction type is "deposit" or "withdrawal"
+# - For deposits: add to balance
+# - For withdrawals: check if balance is sufficient, then subtract
+# - Print the new balance
+
+Challenge 2: Movie Ticket Pricer
+# Variables: age, is_student, is_senior, movie_time
+# - Child (< 13): $8
+# - Student (13-18 or is_student): $10
+# - Adult (19-64): $12
+# - Senior (>= 65 or is_senior): $9
+# - Matinee (before 5pm): -$2 discount
+# Calculate and print final price with breakdown
+
+Challenge 3: Day Categorizer
+# Given: day_of_week (1-7 representing Mon-Sun)
+# Categorize as: Weekday or Weekend
+# If weekday: suggest "Work day"
+# If weekend: suggest "Rest day"
+# Print with explanations
+
+Challenge 4: Password Strength Checker
+# Variables: password (string)
+# Check:
+# - Length >= 8
+# - Contains at least one number
+# - Contains at least one uppercase letter
+# - Contains at least one special character (!@#$%^&*)
+# Print: Weak, Medium, Strong, or Very Strong based on criteria met
