@@ -1,0 +1,7 @@
+Opdrachten
+
+- Maak een programma dat je naam vraagt en je begroet
+- Laat de gebruiker twee getallen invoeren en tel ze op
+- Schrijf een script dat de leeftijd van iemand over 10 jaar berekent
+- Maak een temperatuurconverter (Celsius  Fahrenheit)
+- Laat Python het type van verschillende variabelen printen
