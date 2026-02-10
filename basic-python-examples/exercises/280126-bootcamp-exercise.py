@@ -20,9 +20,10 @@ excuses = ["Dank voor het wachten — mijn excuses voor de korte technische onde
 "Mijn excuses — ik dacht dat het nog gisteren was.",                                 
 "Vertraging door zwaar verkeer… in mijn woonkamer.",                                 
 "Sorry, ik moest eerst mijn innerlijke rust herstarten.",
-"Excuses, mijn goudvissen besloten mijn monitor te hacken."]
+"Excuses, de goudvissen besloten mijn monitor te hacken."]
 
-print(excuses[0])  # print first excuse
+# print first excuse
+# print(excuses[0])
 
 # print a random excuse
 import random  

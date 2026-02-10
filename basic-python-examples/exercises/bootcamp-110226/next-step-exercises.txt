@@ -1,0 +1,10 @@
+Fase 2 — Condities & loops
+
+Doel: if‑statements, while‑loops, for‑loops.
+
+Opdrachten
+1. Vraag een getal en print of het even of oneven is
+2. Maak een wachtwoord-checker met maximaal 3 pogingen
+3. Print alle getallen van 1 t/m 100, maar vervang veelvouden van 3 door “Fizz” en van 5 door “Buzz”
+4. Laat de gebruiker raden welk getal de computer heeft gekozen (1–20)
+5. Maak een simpel menu-systeem met while-loops
