@@ -1,8 +1,8 @@
-# creat a program that asks the user for a number and determines if the number is odd or even
+# This program asks the user for a number and determines if the number is odd or even
 
 
 # get user input
-number = int(input("Enter a number: "))
+number = int(input("Voer een getal in: "))
 
 # determine if the number is odd or even
 if number % 2 == 0:
