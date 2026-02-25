@@ -1,5 +1,5 @@
-# Roll 'em please...
-# Tumbling Dice
+# Roll 'em Pete... twice, if you please  - https://youtu.be/B4iQnkdVpxw ; - https://www.youtube.com/watch?v=HmRofx_suTg
+# Tumbling Dice - Rolling Stones - https://youtu.be/XAWjSTwvroY?list=RDXAWjSTwvroY
 
 # use random.randint() to simulate rolling six-sided dice
 import random
