@@ -207,7 +207,7 @@ tk.Label(
 tk.Label(root, text="Titel:").grid(row=1, column=0)
 entry_titel = tk.Entry(root, width=30)
 entry_titel.grid(row=1, column=1)
-entry_titel.insert(0, "Koningsnach")
+entry_titel.insert(0, "Koningsnach Party! 🎉👑")
 
 tk.Label(root, text="Begin (DD-MM-JJ UU:MM):").grid(row=2, column=0)
 entry_start = tk.Entry(root, width=30)
