@@ -209,13 +209,13 @@ entry_titel = tk.Entry(root, width=30)
 entry_titel.grid(row=1, column=1)
 entry_titel.insert(0, "Koningsnach Party! 🎉👑")
 
-tk.Label(root, text="Begin (DD-MM-JJ UU:MM):").grid(row=2, column=0)
+tk.Label(root, text="Begin:").grid(row=2, column=0)
 entry_start = tk.Entry(root, width=30)
 entry_start.grid(row=2, column=1)
-entry_start.insert(0, "26-04-26 22:22")
+entry_start.insert(0, "26-04-26 21:12")
 
 
-tk.Label(root, text="Eind (DD-MM-JJ UU:MM):").grid(row=3, column=0)
+tk.Label(root, text="Eind:").grid(row=3, column=0)
 entry_eind = tk.Entry(root, width=30)
 entry_eind.grid(row=3, column=1)
 entry_eind.insert(0, "27-04-26 04:40")
