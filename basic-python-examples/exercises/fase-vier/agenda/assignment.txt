@@ -1,0 +1,7 @@
+Gebruik de datetime‑module om een agenda‑reminder te maken
+
+- definieer een agenda
+- leg uit wat de datetime‑module is
+- maak agenda items
+- geef reminder opties 
+- 

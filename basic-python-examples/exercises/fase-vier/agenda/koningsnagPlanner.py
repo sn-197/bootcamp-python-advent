@@ -166,17 +166,19 @@ converted_date = nu.strftime("%d-%m-%Y %H:%M:%S")
 welkomsttekst = (
     "👑👑👑\n"
     "\n"
-    "Maak hier je Koningsnach Date #savethedate \n"
-    "Of één van je andere afspraken :D\n"
+    "Maak hier je Koningsnach Date #SaveTheDate \n"
+    "of één van je andere afspraken :D\n"
     "\n"
-    "Sla je #savethedate op als .ics 👑 👑 👑 \n" 
+    "Sla je #SaveTheDate op als .ics 👑 👑 👑 \n" 
     "\n"
     "en neem de afspraak op in je koninklijke agenda!\n" 
     "\n"
     "👑\n"
     "\n"
     f"Vandaag is het {dagnaam}\n"
-    f"Dit is nu de datum en tijd: {converted_date}"
+    f"Dit is nu de datum en tijd: {converted_date}\n"
+    "\n"
+    "Maandag is het al Koningsdag!!"
 )
 
 
