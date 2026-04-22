@@ -161,7 +161,8 @@ vandaag = date.today()
 dagnaam = get_dagnaam(vandaag)
 
 nu = datetime.now()
-converted_date = nu.strftime("%d-%m-%Y %H:%M:%S")
+converted_date = nu.strftime("%d-%m-%Y") 
+converted_time = nu.strftime("%H:%M:%S")
 
 welkomsttekst = (
     "👑👑👑\n"
@@ -175,8 +176,8 @@ welkomsttekst = (
     "\n"
     "👑\n"
     "\n"
-    f"Vandaag is het {dagnaam}\n"
-    f"Dit is nu de datum en tijd: {converted_date}\n"
+    f"Vandaag is het {dagnaam} {converted_date}\n"
+    f"en zo laat is het nu: {converted_time}\n"
     "\n"
     "Maandag is het al Koningsdag!!"
 )
