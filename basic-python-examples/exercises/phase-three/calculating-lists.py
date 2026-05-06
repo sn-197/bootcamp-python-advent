@@ -21,3 +21,4 @@ print(f"The average of the numbers is: {calculate_average(numbers)}")
 max_value = max(numbers)
 print(f"The maximum value in the list is: {max_value}")
 
+# TODO: Create a function that integrates the ABOVE.

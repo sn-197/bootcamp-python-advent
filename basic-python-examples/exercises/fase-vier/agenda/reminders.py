@@ -1,6 +1,6 @@
 from datetime import datetime, date
 
-print("Welkom! Hier is je agenda! Je kan hier je afspraken toevoegen met een herinnering.")
+print("Welkom! Hier is je agenda! Je kan hier je afspraken bijhouden.")
 
 vandaag = date.today()
 
@@ -22,7 +22,7 @@ print(f"Vandaag is het {dagnaam}")
 
 vandaag = datetime.now()
 converted_date = vandaag.strftime("%d-%m-%Y %H:%M:%S")
-print(f"Dit is nu de datum en tijd: {converted_date}")
+print(f"Het is nu (datum en tijd): {converted_date}")
 
 
 
@@ -49,7 +49,7 @@ def maak_agenda_item_tekst(titel, start_dt, eind_dt):
         f"{start_dt.strftime('%H:%M')} - {eind_dt.strftime('%H:%M')} | {titel}")
 
 print(maak_agenda_item_tekst(
-    "Team meeting",
-    datetime(2026, 4, 22, 14, 30),
-    datetime(2026, 4, 22, 15, 30)
+    "Praegus Playground",
+    datetime(2026, 5, 6, 19, 00),
+    datetime(2026, 5, 6, 21, 00)
 ))
